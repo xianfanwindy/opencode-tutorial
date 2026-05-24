@@ -9,14 +9,5 @@
       "description": "仅检查项目，输出改进建议",
       "template": "请对当前项目进行全面检查，识别所有可改进之处。"
     }
-  },
-  "mcpServers": {
-    "github": {
-      "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-github"],
-      "env": {
-        "GITHUB_TOKEN": "${GITHUB_TOKEN}"
-      }
-    }
   }
 }
